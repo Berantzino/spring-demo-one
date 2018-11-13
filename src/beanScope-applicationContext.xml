@@ -32,6 +32,13 @@
 		<constructor-arg ref="myFortuneService" />
     </bean> 
     
+    <bean id="myPracticeCoach"
+    	class="com.luv2code.springdemo.FootballCoach"
+    	scope="singleton">
+    
+    	<constructor-arg ref="myFortuneService" />
+    	</bean> 
+    
 </beans>
 
 
